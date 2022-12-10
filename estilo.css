@@ -1,0 +1,343 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(imagen\ de\ fondo.jpg);
+    /*img de fondo aun no se como ponerla al 100%*/
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+    position: absolute;
+
+}
+
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 38px;
+
+}
+
+/*Cabecera de pagina*/
+header {
+    background: violet;
+    opacity: 0.6;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+
+}
+
+#encabezado {
+    width: auto;
+    right: 100%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#empresa {
+    color: brown;
+    font-size: 57px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rock Salt', cursive;
+
+}
+
+/*estilo barra*/
+#barraNav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    /*les saca el punto de la lista*/
+    color: antiquewhite;
+}
+
+#barraNav ul li {
+    display: inline-block;
+    /*los pone en linea*/
+}
+
+#barraNav ul li a {
+    font-size: 20px;
+    padding: 11px;
+    color: aliceblue;
+    font-size: 25px;
+
+
+}
+
+/*efecto marron sobre el menu*/
+#barraNav ul li a:hover {
+    background: brown;
+    border-radius: 20%;
+}
+
+/*tamaño de las cajas en el main*/
+/*tamaño y estilo carrucel y texto*/
+#infoMza {
+    width: 85%;
+    height: 20%;
+    position: relative;
+}
+
+.container {
+    width: 85%;
+    height: 100%;
+}
+
+
+#carrucel {
+
+    width: 50%;
+    height: auto;
+    position: absolute;
+    margin-left: 52%;
+
+}
+
+#inf {
+    width: 50%;
+    height: 100%;
+    font-size: 28px;
+    background: tan;
+
+}
+
+#infAct {
+
+    position: relative;
+
+}
+
+#juegos {
+    margin-top: 40px;
+    text-align: center;
+    background: rgb(174, 47, 47);
+    border-radius: 15px;
+    color: snow;
+
+}
+
+#propuesta {
+    background: tan;
+    margin-top: 52px;
+
+}
+
+#propuesta p {
+    text-align: center;
+    font-size: 27px;
+}
+
+footer {
+    width: 100%;
+    height: 20px;
+    background: rgb(80, 80, 238);
+
+}
+
+.footer p {
+    margin-right: 10px;
+    text-align: right;
+
+}
+
+.footer p a {
+    color: antiquewhite;
+}
+
+.footer p a:hover {
+    background: rgb(71, 153, 71);
+}
+
+
+
+/*inicio responsive*/
+
+@media all and (min-width: 878px) and (max-width:1051px){
+    h1 {
+     
+        font-size: 36px;
+    
+    }
+    
+    /*Cabecera de pagina*/
+  
+    
+  
+    
+    #empresa {
+      
+        font-size: 35px;
+   
+    
+    }
+    
+    /*tamaño de las cajas en el main*/
+    /*tamaño y estilo carrucel y texto*/
+ 
+    #inf {
+        
+        font-size: 25px;
+     
+    
+    }
+    
+    #infAct {
+    
+        position: relative;
+    
+    }
+    
+    #juegos {
+        margin-top: 20px;
+       
+    }
+    
+    #propuesta {
+      
+        margin-top: 10px;
+    
+    }
+    
+    #propuesta p {
+       
+        font-size: 26px;
+    }
+    
+}
+@media all and (min-width:532px ) and (max-width:877px){
+    h1 {
+        
+        font-size: 29px;
+    
+    }
+    
+    /*Cabecera de pagina*/
+  
+    
+    #encabezado {
+        width: auto;
+        right: 100%;
+        margin-left: 10%;
+        display: flex;
+        
+        
+    }
+    
+    #empresa {
+       
+        font-size: 39px;
+  
+    
+    }
+    
+    /*estilo barra*/
+    #barraNav ul {
+        margin: 0px;
+        padding: 5px;
+        margin-top: 12px;
+        margin-right: -2px
+    }
+    
+    /*tamaño de las cajas en el main*/
+    /*tamaño y estilo carrucel y texto*/
+  
+    #inf {
+       
+        font-size: 15px;
+    }
+    
+    #propuesta {
+        background: tan;
+        margin-top: 26px;
+    
+    }
+    
+    #propuesta p {
+        font-size: 15px;
+    }
+    
+    footer {
+        width: 100%;
+        height: 20px;
+        background: rgb(80, 80, 238);
+    
+    }
+    
+    .footer p {
+        margin-right: 10px;
+        text-align: right;
+        font-size: 10px;
+    
+    }
+    
+}
+@media all  and (max-width:532px){
+ h1 {
+     
+        font-size: 15px;
+    
+    }
+    
+    /*Cabecera de pagina*/
+  
+     /*estilo barra*/
+     #barraNav ul {
+        margin: 0px;
+        padding: 5px;
+        margin-top: 12px;
+        margin-right: -2px
+    }
+  
+    
+    #empresa {
+      
+        font-size: 22px;
+        
+    
+    }
+    
+
+    #barraNav ul li a {
+     
+        font-size: 15px;
+    }
+  
+ 
+    /*tamaño de las cajas en el main*/
+    /*tamaño y estilo carrucel y texto*/
+ 
+    
+   
+    
+    #inf {
+        
+        font-size: 12px;
+     
+    
+    }
+    
+    #infAct {
+    
+        position: relative;
+    
+    }
+    
+    #juegos {
+        margin-top: 20px;
+       
+    }
+    
+    #propuesta {
+      
+        margin-top: 10px;
+    
+    }
+    
+    #propuesta p {
+       
+        font-size: 12px;
+    }
+    
+}

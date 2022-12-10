@@ -1,0 +1,312 @@
+body {
+    background-image: url(fondo\ de\ pantalla.jpg );
+
+    background-size: cover;
+
+    margin: auto;
+    height: 100vh;
+
+}
+
+/*Cabecera de pagina*/
+header {
+    background: violet;
+    opacity: 0.6;
+    position: sticky;
+    top: 0px;
+
+}
+
+#encabezado {
+    width: auto;
+    right: 100%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#empresa {
+    color: brown;
+    font-size: 57px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rock Salt', cursive;
+
+}
+
+/*estilo barra*/
+#barraNav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    /*les saca el punto de la lista*/
+    color: antiquewhite;
+}
+
+#barraNav ul li {
+    display: inline-block;
+    /*los pone en linea*/
+}
+
+#barraNav ul li a {
+    font-size: 20px;
+    padding: 11px;
+    color: aliceblue;
+    font-size: 25px;
+
+
+}
+
+/*efecto marron sobre el menu*/
+#barraNav ul li a:hover {
+    background: brown;
+    border-radius: 20%;
+}
+
+#segTitulo {
+    font-family: 'Berkshire Swash', cursive;
+    text-align: center;
+}
+
+
+#act {
+    text-decoration: underline;
+    border-radius: 17%;
+    background: #58a59d;
+    font-size: 35px;
+    padding: 5px 15px;
+}
+
+#actividad {
+    font-size: 29px;
+    border-radius: 25px;
+    background: #542aa599
+}
+
+p {
+    font-size: 18px;
+}
+
+#img1,
+#img3 {
+    padding: 6px;
+    width: 100%;
+    margin: auto;
+}
+
+#img2,
+#img4 {
+    padding: 6px;
+    width: 100%;
+    margin: auto;
+}
+
+.formato {
+    background: sienna;
+    border: 2px;
+    border: solid;
+    border-radius: 13px
+}
+/*inicio responsiv*/
+@media all and (min-width: 941px) and (max-width:1046px){
+
+   
+    
+    #empresa {
+      
+        font-size: 43px;
+    
+    }
+    
+
+    
+    
+    
+    #act {
+       
+        font-size: 27px;
+       
+    }
+    
+    #actividad {
+        font-size: 22px;
+        
+    }
+    h2{
+        font-size: 26px;
+    }
+    
+    p {
+        font-size: 17px;
+    }
+    
+    
+}
+
+@media all and (min-width:768px ) and (max-width:940px){
+
+   
+    
+    #empresa {
+      
+        font-size: 33px;
+    
+    }
+    
+  
+  
+    
+    #barraNav ul li a {
+       
+        font-size: 19px;
+    
+    
+    }
+    
+    
+    
+    
+    #act {
+       
+        font-size: 27px;
+       
+    }
+    
+    #actividad {
+        font-size: 22px;
+        
+    }
+    h2{
+        font-size: 26px;
+    }
+    
+    p {
+        font-size: 17px;
+    }
+    
+    
+}
+@media all and (min-width: 575px) and (max-width:767px){
+
+    #empresa {
+        
+        font-size: 26px;
+       
+    }
+    
+  
+    
+    #barraNav ul li a {
+       
+        padding: 11px;
+        font-size: 24px;
+    
+    
+    }
+ 
+    
+   
+    #act {
+       
+        font-size: 26px;
+        
+        
+    }
+    #actividad {
+        font-size: 23px;
+        border-radius: 25px;
+        background: #542aa599;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+    
+    #img1,
+    #img3 {
+        padding: 6px;
+        width: 100%;
+        margin: auto;
+    }
+    
+    #img2,
+    #img4 {
+        padding: 6px;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .formato {
+        background: sienna;
+        border: 2px;
+        border: solid;
+        border-radius: 13px
+    }
+
+}
+@media all and (max-width:574px){
+
+    #empresa {
+        
+        font-size: 26px;
+       
+    }
+    
+    #barraNav ul li a {
+        font-size: 20px;
+        padding: 5px;
+        color: aliceblue;
+        font-size: 25px;
+    
+    
+    }
+    
+    #barraNav ul li a {
+       
+        padding: 11px;
+        font-size: 15px;
+    
+    
+    }
+ 
+    
+   
+    #act {
+       
+        font-size: 26px;
+        
+        
+    }
+    #actividad {
+        font-size: 23px;
+        border-radius: 25px;
+        background: #542aa599;
+    }
+    
+    p {
+        font-size: 15px;
+    }
+    
+    #img1,
+    #img3 {
+        padding: 6px;
+        width: 100%;
+        margin: auto;
+    }
+    
+    #img2,
+    #img4 {
+        padding: 6px;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .formato {
+        background: sienna;
+        border: 2px;
+        border: solid;
+        border-radius: 13px
+    }
+
+}

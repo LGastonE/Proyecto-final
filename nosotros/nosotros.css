@@ -1,0 +1,351 @@
+/*pagina Nosotros*/
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(../imagen\ de\ fondo.jpg);
+    /*img de fondo aun no se como ponerla al 100%*/
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+    position: absolute;
+
+}
+
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 38px;
+
+}
+
+/*Cabecera de pagina*/
+header {
+    background: violet;
+    opacity: 0.6;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+
+}
+
+#encabezado {
+    width: auto;
+    right: 100%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#empresa {
+    color: brown;
+    font-size: 57px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rock Salt', cursive;
+
+}
+
+/*estilo barra*/
+#barraNav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    /*les saca el punto de la lista*/
+    color: antiquewhite;
+}
+
+#barraNav ul li {
+    display: inline-block;
+    /*los pone en linea*/
+}
+
+#barraNav ul li a {
+    font-size: 20px;
+    padding: 11px;
+    color: aliceblue;
+    font-size: 25px;
+
+
+}
+
+/*efecto marron sobre el menu*/
+#barraNav ul li a:hover {
+    background: brown;
+    border-radius: 20%;
+}
+#nosotros {
+    width: 85%;
+    margin: auto;
+    height: 100%;
+}
+
+.texNos {
+    width: 50%;
+    height: 100%;
+
+    font-size: 22px;
+    background: tan
+}
+
+#video1 {
+    width: 50%;
+    height: 100%;
+    right: 0px;
+}
+
+footer {
+    width: 100%;
+    height: 20px;
+    background: rgb(80, 80, 238);
+
+}
+
+.footer p {
+    margin-right: 10px;
+    text-align: right;
+
+}
+
+.footer p a {
+    color: antiquewhite;
+}
+
+.footer p a:hover {
+    background: rgb(71, 153, 71);
+}
+@media all and (min-width: 989px) and (max-width: 1051px) {
+
+  
+    
+    /*Cabecera de pagina*/
+
+    
+    #empresa {
+        
+        font-size: 49px;
+   
+    }
+    
+    /*estilo barra*/
+    #barraNav ul {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        /*les saca el punto de la lista*/
+        color: antiquewhite;
+    }
+    
+    #barraNav ul li {
+        display: inline-block;
+        /*los pone en linea*/
+    }
+    
+  
+    
+    /*efecto marron sobre el menu*/
+    #barraNav ul li a:hover {
+        background: brown;
+        border-radius: 20%;
+    }
+    #nosotros {
+        width: 85%;
+        margin: auto;
+        height: 100%;
+    }
+    
+    .texNos {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        font-size: 22px;
+        background: tan
+    }
+    
+    #video1 {
+       
+        margin-left: 154px;
+    }
+
+
+}@media all and (min-width:794px ) and (max-width:989px ) {
+
+  
+    
+    /*Cabecera de pagina*/
+
+    
+    #empresa {
+        
+        font-size:36px;
+   
+    }
+    
+    /*estilo barra*/
+    #barraNav ul {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        /*les saca el punto de la lista*/
+        color: antiquewhite;
+    }
+    
+    #barraNav ul li {
+        display: inline-block;
+        /*los pone en linea*/
+    }
+    
+    #barraNav ul li a {
+       
+        padding: 10px;
+        color: aliceblue;
+        font-size: 25px;
+    
+    
+    }
+    
+  
+    
+    .texNos {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        font-size: 22px;
+        background: tan
+    }
+    
+    #video1 {
+       
+        margin-left: 10%;
+    }
+
+}
+
+@media all and (min-width: 651px) and (max-width: 793px) {
+
+  
+    
+    /*Cabecera de pagina*/
+
+    
+    #empresa {
+        
+        font-size: 24px;
+   
+    }
+    
+
+    
+    #barraNav ul li {
+        display: inline-block;
+        /*los pone en linea*/
+    }
+    
+    #barraNav ul li a {
+        
+        padding:8px;
+        color: aliceblue;
+        font-size:21px;
+    
+    
+    }
+    
+
+    #barraNav {
+        margin: 0px 16px;
+        padding: 0px;
+    }
+    #nosotros {
+        width: 85%;
+        margin: auto;
+        height: 100%;
+    }
+    
+    .texNos {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        font-size: 18px;
+        background: tan
+    }
+    
+    #video1 {
+       -o-object-position: center;
+       width: 94%;
+    }
+}
+
+@media all and (max-width: 650px) {
+    header {
+        background: violet;
+        opacity: 0.6;
+        position: sticky;
+        top: 0px;
+        z-index: 100;
+    
+    }
+    
+    #encabezado {
+        width: auto;
+        right: 100%;
+        margin-left: 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    
+    #empresa {
+        
+        font-size: 24px;
+      
+    }
+    
+    /*estilo barra*/
+    #barraNav ul {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        /*les saca el punto de la lista*/
+        color: antiquewhite;
+    }
+    
+    #barraNav ul li {
+        display: inline-block;
+        /*los pone en linea*/
+    }
+    
+    #barraNav ul li a {
+    
+        padding: 5px;
+        color: aliceblue;
+        font-size: 15px;
+    
+    
+    }
+    
+    /*efecto marron sobre el menu*/
+    #barraNav ul li a:hover {
+        background: brown;
+        border-radius: 20%;
+    }
+    #nosotros {
+        margin-top: 20px;
+        width: 85%;
+        margin: auto;
+        height: 100%;
+    }
+    
+    .texNos {
+        width: 100%;
+        height: 100%;
+    
+        font-size: 13px;
+       
+    }
+    
+    #video1 {
+        width: 50%;
+        height: 100%;
+        right: 0px;
+  
+}
+}
