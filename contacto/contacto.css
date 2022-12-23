@@ -91,6 +91,9 @@ header{
     color: beige;
     font-size: 38px;
  }
+ input{
+   height: 28px;
+ }
  #form{
     position: relative;
     color: cornsilk;

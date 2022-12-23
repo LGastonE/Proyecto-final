@@ -29,11 +29,11 @@ function informacionActividad() {
         parrafo.textContent = 'Rafting por el río Mendoza: El río Mendoza, que es catalogado como de clase 3 durante todo el año y asciende a clase 4 en los meses de verano, dibuja verdaderos paisajes de película para quienes quieran vivir emociones diferentes.Contamos con guias altamente capacitados los cuales brindan una charla de seguirdad antes de cada partida. Los mismos controlan que el equipo de protección se encuentre bien colocado en todos los pasajeros. El rafting se ha convertido en uno de los deportes preferidos de los amantes de la aventura y el aire libre.';
         document.thumb.src = micarrusel[3].imageurl;
     }else if(eleccion==='selec'){
-        parrafo.textContent='';  
-        document.thumb.src=''
+        location.reload
+     }
      }
     
-}
+
 
 
 
